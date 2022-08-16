@@ -1,16 +1,7 @@
 
-const container=document.querySelector('.c')
-const image=document.querySelector('.slider ')
+const container=document.querySelector('#carousel')
+const image=document.querySelector('.carousel-item ')
 
 image.addEventListener("click",function(){
     container.classList.add('active')
 })
-document.querySelector('.trend').addEventListener("click",function(){
-    container.classList.add('active')
-})
-
-
-document.querySelector('.continue').addEventListener("click",function(){
-    container.classList.add('active')
-})
-
